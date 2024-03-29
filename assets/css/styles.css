@@ -1,0 +1,117 @@
+:root{
+    --color1: #470C6C;
+    --color2: #FFFFFF;
+    --color3: #FF935D;
+}
+.menu1 {
+    padding-top: 10px;
+    background-color: var(--color1);
+}
+b{
+    font-family: "Montserrat", sans-serif;
+}
+p{
+    font-family: "Nunito", sans-serif;
+}
+.linksred{
+    text-align: left;
+    padding-left: 80px;
+}
+.menu2{
+    position: absolute;
+    z-index: 1;
+    padding: 20px;
+    background-color: transparent;
+}
+.menuicon{
+    margin-left: -90px;
+}
+.menuitems{
+    font-size: 18px;
+    text-align: right;
+    margin-top: 5px;
+}
+.menuitembut:hover{
+    color: var(--color3);
+}
+.menuitembut{
+    transition: .6s;
+}
+.mascotastitulo{
+    color: var(--color1);
+}
+.mascotasimg{
+    display: flex;
+    padding-top: 50px;
+}
+.imgsmascotas{
+    height: 220px;
+    width: 220px;
+    border-radius: 5%;
+}
+.contacto{
+    padding-top: 70px;
+}
+.textocontacto{
+    font-size: 45px;
+    margin-bottom: 40px;
+}
+.contactonomcorr{
+    display: flex;
+}
+.botonenviar{
+    padding: 40px;
+    text-align: center;
+    padding-bottom: 120px;
+}
+.success{
+    border: none;
+    padding: 6px 55px;
+    border-radius: 8px;
+    background-color: var(--color1);
+}
+.piepagina{
+    text-align: center;
+    padding: 100px;
+    padding-bottom: 40px;
+    background-color: var(--color1);
+}
+.fondopandora{
+    background-image: no-repeat;
+    background-image: fixed;
+    background-image: center;
+    background-size: cover;
+}
+.pandoratitulo{
+    padding: 250px;
+    text-align: center;
+}
+.pandora-titulo{
+    font-size: 600%;
+}
+.desc-pandora{
+    padding: 100px;
+    font-size: 150%;
+}
+.pandora-foto{
+    height: 520px;
+    width: 520px;
+    border-radius: 5%;
+}
+.pandora-desc-nombre{
+    font-size: 240%;
+    color: var(--color1);
+}
+.otras-imgenes{
+    font-size: 280%;
+    color: var(--color1);
+    padding-bottom: 60px;
+}
+.imagen-pandora-otros{
+    height: 280px;
+    width: 280px;
+    border-radius: 5%;
+}
+.otras-fotos-pelusa{
+    padding-bottom: 140px;
+}
