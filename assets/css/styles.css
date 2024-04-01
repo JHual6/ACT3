@@ -50,7 +50,10 @@ p{
     border-radius: 5%;
 }
 .contacto{
-    padding-top: 70px;
+    padding: 70px 280px;
+    background-image: url(../img/fondo-contacto.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .textocontacto{
     font-size: 45px;
